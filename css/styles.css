@@ -1,4 +1,6 @@
-.mainfont {
+.main-font {
+    font-family: 'Roboto', 'Raleway', sens-serif;
+    color: var(--main-heading-color);
     --main-heading-color: #212121;
     --content-adress-color: #757575;
     --logo-bgr-blue: #2196F3;
@@ -6,63 +8,56 @@
     --text-hover-wight: #ffffff;
 }
 
-.mainfont {
-    font-family: 'Roboto', 'Raleway', sens-serif;
-    color: var(--main-heading-color);
-    
-}
 ul {
     list-style: none;
 }
-.titlefont {
+.title-font {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
     letter-spacing: 6%;
     
 }
-.descfont {
+.desc-font {
     color: var(--content-adress-color);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.9;
     letter-spacing: 3%;
    
 }
-.btnfont {
+.btn-font {
     font-size: 18px;
     font-weight: 500;
-    line-height: 1.6;g
+    line-height: 1.6;
     letter-spacing: 3%;
     text-align: center;
+    cursor: pointer;
     
 }
-.btnfont:hover {
+.btn-font:hover {
     color: var(--text-hover-wight);
     background-color: var(--logo-bgr-blue);
 }
-.btnfont:focus {
+.btn-font:focus {
     color: var(--text-hover-wight);
     background-color: var(--logo-bgr-blue);
 }
-.linktext a {
+.link-text a {
     color: inherit;
     font-style: inherit;
     text-decoration: none;
 }
-.linktext a:hover {
+.link-text a:hover {
     background-color: var(--logo-bgr-blue);
 }
-.linktext a:focus {
+.link-text a:focus {
     background-color: var(--logo-bgr-blue);
 }
-.linkactive:hover {
-    color: var(--text-hover-wight);
-    background-color: var(--logo-bgr-blue);
+.link-active:hover {
+    color: var(--logo-bgr-blue)
 }
-.linkactive:focus {
-    color: var(--text-hover-wight);
-    background-color: var(--logo-bgr-blue);
+.link-active:focus {
+    color: var(--logo-bgr-blue);
 }
 .logo {
     font-family: Raleway;
@@ -80,7 +75,7 @@ ul {
     color: var(--text-hover-wight);
     background-color: var(--logo-bgr-blue);
 }
-.logoblue {
+.logo-blue {
     color: var(--logo-bgr-blue);
 }
 
