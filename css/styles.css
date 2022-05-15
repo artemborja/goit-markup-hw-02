@@ -1,0 +1,62 @@
+.mainfont {
+    --main-heading-color: #212121;
+    --content-adress-color: #757575;
+    --logo-bgr-blue: #2196F3;
+    --logo-black: #000000;
+    --text-hover-wight: #ffffff;
+}
+
+.mainfont {
+    font-family: 'Roboto', 'Raleway', sens-serif;
+    color: var(--main-heading-color);
+    
+}
+ul {
+    list-style: none;
+}
+.titlefont {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 6%;
+    
+}
+.descfont {
+    color: var(--content-adress-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9;
+    letter-spacing: 3%;
+   
+}
+.btnfont {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;g
+    letter-spacing: 3%;
+    text-align: center;
+    
+}
+.btnfont:hover {
+    color: var(--text-hover-wight);
+    background-color: var(--logo-bgr-blue);
+}
+.btnfont:focus {
+    color: var(--text-hover-wight);
+    background-color: var(--logo-bgr-blue);
+}
+.linktext a {
+    color: inherit;
+    font-style: inherit;
+    text-decoration: none;
+}
+.linktext a:hover {
+    background-color: var(--logo-bgr-blue);
+}
+.linktext a:focus {
+    background-color: var(--logo-bgr-blue);
+}
+.linkactive:hover {
+    color: var(--text-hover-wight);
+    background-color: var(--logo-bgr-blue);
+}
