@@ -4,10 +4,11 @@
     --main-heading-color: #212121;
     --content-adress-color: #757575;
     --logo-bgr-blue: #2196F3;
+    --bgr-hero-color: #2F303A;
     --logo-black: #000000;
     --text-hover-wight: #ffffff;
+    --btn-hiro-hover: #188CE8;
 }
-
 ul {
     list-style: none;
 }
@@ -15,21 +16,103 @@ ul {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     
+}
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--logo-black);
+    text-decoration: none;
+    line-height: auto;
+    letter-spacing: 0.03em;
+}
+
+.logo-blue {
+    color: var(--logo-bgr-blue);
+}
+.head-text {
+    color: var(--text-hover-wight);
+    background-color: var(--bgr-hero-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.head-btn {
+    font-family: 'Roboto';
+    color: var(--text-hover-wight);
+    background-color: var(--logo-bgr-blue);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.head-btn:hover {
+    background-color: var(--btn-hiro-hover);
+}
+.head-btn:focus {
+    background-color: var(--btn-hiro-hover);
+}
+.third-head {
+    color: var(--main-heading-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.text-whattodo {
+    color: var(--content-adress-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.second-head {
+    color: var(--main-heading-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+.names {
+    color: var(--main-heading-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.profession {
+    color: var(--content-adress-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
 }
 .desc-font {
     color: var(--content-adress-color);
     font-size: 16px;
     line-height: 1.9;
-    letter-spacing: 3%;
-   
+    letter-spacing: 0.03em;
 }
 .btn-font {
+    font-family: 'Roboto';
     font-size: 18px;
     font-weight: 500;
     line-height: 1.6;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     text-align: center;
     cursor: pointer;
     
@@ -47,11 +130,10 @@ ul {
     font-style: inherit;
     text-decoration: none;
 }
-.link-text a:hover {
-    background-color: var(--logo-bgr-blue);
-}
-.link-text a:focus {
-    background-color: var(--logo-bgr-blue);
+.link-active {
+    color: inherit;
+    font-style: inherit;
+    text-decoration: none;
 }
 .link-active:hover {
     color: var(--logo-bgr-blue)
@@ -59,23 +141,8 @@ ul {
 .link-active:focus {
     color: var(--logo-bgr-blue);
 }
-.logo {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    color: var(--logo-black);
-    text-decoration: none;
-    line-height: auto;
-}
-.logo:hover {
-    color: var(--text-hover-wight);
-    background-color: var(--logo-bgr-blue);
-}
-.logo:focus {
-    color: var(--text-hover-wight);
-    background-color: var(--logo-bgr-blue);
-}
-.logo-blue {
-    color: var(--logo-bgr-blue);
-}
 
+.addr-font {
+    font-style: inherit;
+
+}
