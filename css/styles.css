@@ -1,17 +1,52 @@
-.main-font {
-    font-family: 'Roboto', 'Raleway', sens-serif;
-    color: var(--main-heading-color);
-    --main-heading-color: #212121;
-    --content-adress-color: #757575;
+:root {
+    --main-text-color: #212121;
+    --content-text-color: #757575;
     --logo-bgr-blue: #2196F3;
     --bgr-hero-color: #2F303A;
     --logo-black: #000000;
     --text-hover-wight: #ffffff;
     --btn-hiro-hover: #188CE8;
+    --addr-footer-white: rgba(255, 255, 255, 0.6);
 }
-ul {
+
+body {
+    font-family: 'Roboto', 'Raleway', sens-serif;
+    color: var(--main-text-color);
+    letter-spacing: 0.03em;
+    background-color: var(--text-hover-wight);
+    font-size: 14px;
+}
+
+address {
+    font-style: normal;
+
+}
+
+/* for ul without points */
+
+.non-stiles {
     list-style: none;
 }
+
+/* for links in header*/
+
+.link-active {
+    color: var(--main-text-color);
+    text-decoration: none;
+    line-height: 1.14;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    background-color: var(--text-hover-wight);
+}
+
+.link-active:hover {
+    color: var(--logo-bgr-blue)
+}
+
+.link-active:focus {
+    color: var(--logo-bgr-blue);
+}
+
 .title-font {
     font-size: 18px;
     font-weight: 700;
@@ -26,7 +61,6 @@ ul {
     color: var(--logo-black);
     text-decoration: none;
     line-height: auto;
-    letter-spacing: 0.03em;
 }
 
 .logo-blue {
@@ -38,7 +72,7 @@ ul {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: calc(60 / 44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -48,7 +82,7 @@ ul {
     background-color: var(--logo-bgr-blue);
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     display: flex;
     align-items: center;
     text-align: center;
@@ -64,55 +98,48 @@ ul {
     color: var(--main-heading-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 .text-whattodo {
-    color: var(--content-adress-color);
+    color: var(--content-text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+    line-height: 1.7;
 }
 .second-head {
     color: var(--main-heading-color);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
+    line-height: 1.67;
 }
 .names {
     color: var(--main-heading-color);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
+    line-height: 1.19;
 }
 .profession {
-    color: var(--content-adress-color);
+    color: var(--content-text-color);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
+    line-height: 1.19;
 }
 .desc-font {
-    color: var(--content-adress-color);
+    color: var(--content-text-color);
     font-size: 16px;
     line-height: 1.9;
-    letter-spacing: 0.03em;
 }
 .btn-font {
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 500;
     line-height: 1.6;
-    letter-spacing: 0.03em;
     text-align: center;
     cursor: pointer;
     
@@ -130,19 +157,5 @@ ul {
     font-style: inherit;
     text-decoration: none;
 }
-.link-active {
-    color: inherit;
-    font-style: inherit;
-    text-decoration: none;
-}
-.link-active:hover {
-    color: var(--logo-bgr-blue)
-}
-.link-active:focus {
-    color: var(--logo-bgr-blue);
-}
 
-.addr-font {
-    font-style: inherit;
 
-}
